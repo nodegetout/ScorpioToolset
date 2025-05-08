@@ -1,0 +1,26 @@
+{
+    "name": "com.scorpio.toolset",
+    "displayName": "Scorpio Toolset",
+    "version": "0.0.1",
+    "unity": "2019.3",
+    "description": "A toolset for my unity3D devlopment as a TA.",
+    "keywords": [
+        "unity",
+        "package"
+    ],
+    "category": "Unity",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nodegetout/ScorpioToolset.git"
+    },
+    "author": {
+        "name": "Nodegetout",
+        "email": "844134523@qq.com",
+        "url": "https://yourwebsite.com"
+    },
+    "dependencies": {
+        // "com.unity.somepackage": "1.0.0"
+    },
+    "license": "MIT",
+    "hideInEditor": false
+}
