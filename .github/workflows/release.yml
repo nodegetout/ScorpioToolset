@@ -1,0 +1,33 @@
+name: Unity Package Release
+
+on:
+  push:
+    tags:
+      - "v*" # 匹配 v 开头的 tag（如 v1.0.0）
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/labeler@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+    #   - name: Checkout
+    #     uses: actions/checkout@v4
+
+    #   - name: Generate .unitypackage
+    #     uses: actions/labeler@v2
+    #     with:
+    #       #   packageName: com.scoprio.toolset
+    #       #   exportPath: com.scoprio.toolset.unitypackage
+    #       repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+    #   - name: Create Release
+    #     uses: softprops/action-gh-release@v1
+    #     with:
+    #       tag_name: ${{ github.ref }}
+    #       name: Release ${{ github.ref_name }}
+    #       body: Automated Unity Package Release
+    #       files: com.scoprio.toolset.unitypackage

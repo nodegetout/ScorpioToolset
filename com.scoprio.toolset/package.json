@@ -2,7 +2,7 @@
     "name": "com.scorpio.toolset",
     "displayName": "Scorpio Toolset",
     "version": "0.0.1",
-    "unity": "2019.3",
+    "unity": "2022.3",
     "description": "A toolset for my unity3D devlopment as a TA.",
     "keywords": [
         "unity",
@@ -19,7 +19,6 @@
         "url": "https://yourwebsite.com"
     },
     "dependencies": {
-        // "com.unity.somepackage": "1.0.0"
     },
     "license": "MIT",
     "hideInEditor": false
